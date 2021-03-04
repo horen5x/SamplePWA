@@ -1,7 +1,7 @@
 dd = new Date();
 document.write(dd.toLocaleString());
-window.onload(function(){
+window.onload = function(){
   setInterval(function(){
     document.getElementById("T1").innerHTML = dd.toLocaleString();
   },1000);
-})
+}
